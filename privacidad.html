@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad</title>
+  <meta name="description" content="Política de privacidad del Bot obra Los Andes.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="sub">Bot obra Los Andes · vigente desde el 24 de octubre de 2026</p>
+
+    <h2>Qué es</h2>
+    <p>
+      Bot de Telegram de uso privado para el seguimiento de la remodelación de un apartamento. Solo lo usan su dueño
+      y una persona autorizada por él. Los mensajes de cualquier otra persona se ignoran.
+    </p>
+
+    <h2>Datos de Google que usa</h2>
+    <ul>
+      <li>
+        <strong>Google Drive</strong>, con el permiso <code>drive.file</code>: el bot solo puede ver y modificar los
+        archivos que él mismo crea en el Drive de su dueño (fotos de la obra y facturas). No tiene acceso al resto
+        del Drive.
+      </li>
+      <li>
+        <strong>Google Sheets</strong>: lee y escribe una sola hoja de cálculo que el dueño compartió con el bot.
+      </li>
+    </ul>
+
+    <h2>Para qué los usa</h2>
+    <p>
+      Solo para guardar y leer la información de la obra. Los datos no se venden, no se comparten con terceros, no se
+      usan para publicidad y no se usan para entrenar modelos de inteligencia artificial propios. El uso de los datos
+      recibidos de las API de Google cumple la
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los
+        servicios de API de Google</a>, incluidos los requisitos de uso limitado.
+    </p>
+
+    <h2>Procesamiento con inteligencia artificial</h2>
+    <p>
+      Para leer facturas, notas de voz y textos, el bot envía ese contenido a la API de Gemini de Google en su nivel
+      gratuito. En ese nivel, Google puede usar el contenido para mejorar sus productos. El dueño aceptó esa
+      condición.
+    </p>
+
+    <h2>Dónde se guardan</h2>
+    <p>
+      La información de la obra queda en el Google Drive y la hoja de cálculo del dueño. El servidor del bot
+      (Supabase) solo guarda datos técnicos de funcionamiento, como el paso en el que va una conversación y registros
+      de errores.
+    </p>
+
+    <h2>Cómo revocar el acceso</h2>
+    <p>
+      El dueño puede quitar el acceso del bot a su cuenta en
+      <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> y borrar la carpeta que
+      el bot creó en su Drive.
+    </p>
+
+    <footer>
+      Contacto: <a href="https://github.com/carlos1208">github.com/carlos1208</a> · <a href="index.html">Inicio</a>
+    </footer>
+  </main>
+</body>
+</html>
